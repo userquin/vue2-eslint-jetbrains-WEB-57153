@@ -1,0 +1,81 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables: only with tree shaking works!!!!
+//$body-font-family: "Montserrat", sans-serif;
+$font-size-root: 14px;
+$color-pack: false;
+$btn-font-weight: 500;
+//$card-border-radius: 0;
+//$card-elevation: 0;
+$icon-size: 20px;
+/* lists */
+$list-item-dense-title-font-weight: bold;
+//$list-item-dense-title-font-size: 0.9rem;
+$list-dense-content-padding: 4px 0;
+$icon-size-dense: 20px;
+$list-dense-icon-height: 20px;
+$list-dense-icon-margin: 6px;
+$list-dense-min-height: 32px;
+/* alerts*/
+$alert-font-size: 14px;
+/* tables */
+$data-table-regular-header-height: 36px;
+$data-table-regular-row-height: 28px;
+$data-table-regular-header-font-size: 0.8rem;
+$data-table-regular-row-font-size: 0.8rem;
+$data-table-header-sort-badge-height: 20px;
+$data-table-mobile-row-min-height: 28px;
+$data-footer-font-size: 0.85rem;
+$data-footer-padding: 0 8px;
+$data-footer-pagination-margin-end: 0;
+$data-footer-pagination-margin-start: 0;
+$data-footer-select-select-margin-y: 4px;
+$data-footer-select-select-margin-start: 8px;
+/* toobars */
+$toolbar-btn-icon-size: 20px;
+$toolbar-content-padding-x: 0.5rem;
+/* breadcrumbs */
+$breadcrumbs-padding: 0;
+$breadcrumbs-item-font-size: 17.5px;
+:root {
+  --dark-primary-color: #3C7742;
+  //--primary-color: #4caf50;
+  //--primary-color: #3C7742;
+  --primary-color: #078930;
+  // primary-color(0.27) over white => rgb(193, 200, 227)
+  --primary-highlight-color: #DFF0D8;
+  --accent-color: #fa6400;
+  --accent-color-bg: rgba(255, 100, 0, 0.17);
+  --accent-color-fg: var(--accent-color);
+  //--accent-color: rgb(60, 119, 66);
+  // accent-color(0.27) over white => rgb(255, 213, 186)
+  //--highlight-color: #fa64001b;
+  --highlight-color: #DFF0D8;
+  //--highlight-color: rgb(255,238,228);
+  //--text-primary-color: #212121;
+  --text-primary-color: #ffffff;
+  --normal-toolbar-primary-color: #212121;
+  //--text-primary-color: rgba(33, 33, 33, 0.87);
+  //--text-primary-color: white;
+  --app-drawer-width: 300px;
+  --app-drawer-compact-width: 256px;
+  --error-color: #b71c1c;
+  --error-color-fg: var(--error-color);
+  --error-color-bg: #ffebee;
+  --success-color: #4caf50;
+  --success-color-fg: var(--success-color);
+  --info-color-bg: #E3F2FD;
+  --info-color-fg: #0D47A1;
+  // todo@quini: buscar el color para AA contrast
+  --success-color-bg: #4caf5070;
+  --warning-color: #ffc107;
+  --warning-color-fg: #827717;
+  --warning-color-bg: #ffffe7;
+  --app-bg-color: #e3e3e3;
+  /* filter */
+  --filter-select-width: 65px;
+  --filter-column-gap: 16px;
+  --label-color: #212121;
+  --picker-highlight-fgcolor: #000000;
+}
+
+/* THIS MUST BE AT THE END */
+//@import '~vuetify/src/styles/styles.sass';
