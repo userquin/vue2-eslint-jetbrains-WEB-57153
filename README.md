@@ -21,7 +21,7 @@ corepack enable
 
 ## Install and Run
 
-From run folder run from command line:
+From root folder run following script from command line:
 ```shell
 pnpm install
 ```
