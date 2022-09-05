@@ -8,9 +8,3 @@ declare module 'vuetify/lib/framework' {
   import Vuetify from 'vuetify/lib'
   export default Vuetify
 }
-
-// virtual:app-login
-declare module 'virtual:app-login' {
-  import Vue from 'vue'
-  export default Vue
-}
